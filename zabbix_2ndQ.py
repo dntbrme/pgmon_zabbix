@@ -15,7 +15,7 @@ if len(sys.argv) == 1:
 
 
 LOGDIR_BASE = "/var/log/pgmon_2ndQ/"
-LOGDIR = os.path.join(LOGDIR_BASE, sys.argv[1], sys.argv[2])
+LOGDIR = os.path.join(LOGDIR_BASE, sys.argv[1])
 LOGFILE = os.path.join(LOGDIR, 'latest')
 
 f = open(LOGFILE)
